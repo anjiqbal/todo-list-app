@@ -11,7 +11,7 @@ function App() {
   }
 
   function removeToDo(index) {
-    return false;
+    setToDoList([...toDoList.slice(0, index), ...toDoList.slice(index + 1)]);
   }
 
   return (

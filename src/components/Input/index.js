@@ -18,6 +18,7 @@ function Input({ addToDo }) {
       <button
         onClick={() => {
           addToDo(text);
+          document.querySelector("input").value = "";
         }}
       >
         Add ToDo
