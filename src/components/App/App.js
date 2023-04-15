@@ -16,7 +16,10 @@ function App() {
 
   return (
     <main className="App">
-      <Input addToDo={addToDo} />
+      <h1>To Do List</h1>
+      <div className="input-wrapper">
+        <Input addToDo={addToDo} />
+      </div>
       <List toDoList={toDoList} removeToDo={removeToDo} />
     </main>
   );

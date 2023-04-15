@@ -7,6 +7,14 @@ function Input({ addToDo }) {
     setText(inputText);
   }
 
+  function handleKeyDown(event) {
+    if (event.key === "Enter") {
+      console.log("hello");
+      addToDo(text);
+      document.querySelector("input").value = "";
+    }
+  }
+
   return (
     <section>
       <input
@@ -14,6 +22,7 @@ function Input({ addToDo }) {
         onChange={(event) => {
           handleText(event.target.value);
         }}
+        onKeyDown={handleKeyDown}
       />
       <button
         onClick={() => {
