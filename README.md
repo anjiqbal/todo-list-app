@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Hackathon #4 - To-Do List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React app that keeps track of your to-do's
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+![App Screenshot]()
 
-### `npm start`
+## Motivation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This week's hackathon task was to create a to-do list app using React. Being new to React, we did struggle to understand states and props. We created a component tree to help us understand the flow of data better and where to place states and pass down props. We also created a plan on how to approach the task. We were able to create the majority of the functionality but were not able to complete it in the given time.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app is my re-creation of that task, from scratch, the following day on my own.
 
-### `npm test`
+## Lessons Learned
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Having only done an hour or two's worth of coding using React, this project was really useful to cement those ideas and build understanding.
 
-### `npm run build`
+Main lessons learned:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A component tree is an incredibly useful tool to give you the big picture of what you are building. I include states and props on the diagram to understand the data flow.
+- How to get a user's input and then display it using React
+- To always make sure I put the square brackets in the state function that updates the array when using the spread operator.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Client:** React, JavaScript, HTML, CSS
 
-### `npm run eject`
+## Installation and Setup Instructions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You will need `node` and `npm` installed on your machine.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the repo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`https://github.com/anjiqbal/todo-list-app.git`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install the required npm modules:
 
-## Learn More
+`npm install`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the application:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`npm start`
 
-### Code Splitting
+## Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Potential future improvements:
 
-### Analyzing the Bundle Size
+- Add a way of ordering tasks based on priority
+- Add a checkbox that a user can click and add a strike-through effect to the item in the list
+- Add an option to pick a due date
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+1. Add items to the list by typing them in the input and then pressing the ADD TASK button or by pressing enter on your keyboard.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Delete items by clicking the X button to the right of each task

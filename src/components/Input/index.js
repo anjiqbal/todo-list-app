@@ -30,7 +30,7 @@ function Input({ addToDo }) {
           document.querySelector("input").value = "";
         }}
       >
-        Add ToDo
+        Add Task
       </button>
     </section>
   );
