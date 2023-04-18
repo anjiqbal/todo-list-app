@@ -1,10 +1,11 @@
 # Hackathon #4 - To-Do List App
+###### April 2023
 
 A React app that keeps track of your to-do's
 
 ## Screenshots
 
-![App Screenshot]()
+![To do list app Screenshot](https://github.com/anjiqbal/todo-list-app/blob/main/images/Screenshot.png)
 
 ## Motivation
 
