@@ -8,8 +8,6 @@ A React app that keeps track of your to-do's
 
 ![To do list gif](images/to_do_list.gif)
 
-![To do list app Screenshot](https://github.com/anjiqbal/todo-list-app/blob/main/images/Screenshot.png)
-
 ## Motivation
 
 This week's hackathon task was to create a to-do list app using React. Being new to React, we did struggle to understand states and props. We created a component tree to help us understand the flow of data better and where to place states and pass down props. We also created a plan on how to approach the task. We were able to create the majority of the functionality but were not able to complete it in the given time.
